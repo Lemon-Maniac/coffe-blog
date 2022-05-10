@@ -32,6 +32,21 @@ html{
     scroll-padding-top: 6rem;
 }
 
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: var(--warna-utama);
+    cursor: pointer;
+    color: var(--white);
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    border-radius: .5rem;
+}
+
+.btn:hover{
+    background-color: #333;
+}
+
 /* header start*/
 .header{
     position: sticky;
@@ -79,3 +94,37 @@ section{
 }
 
 /* header end*/
+
+/* home start */
+.home-bg{
+    background: url(images/home-bg.jpg) no-repeat transparent;
+    background-size: cover;
+    background-position: center;
+}
+
+.home-bg .home{
+    min-height: 70rem;
+    display: flex;
+    align-items: center;
+
+}
+
+.home-bg .home .content{
+    width: 50rem;
+    text-align: center;
+}
+
+.home-bg .home .content h3{
+    font-size: 6rem;
+    color: var(--black);
+    font-family: 'Merienda One', cursive;
+}
+
+.home-bg .home .content p{
+    padding: 1rem 0;
+    font-size: 1.7rem;
+    color: var(--black);
+    line-height: 2;
+}
+
+/* home end */

@@ -48,9 +48,21 @@
         display: block;
         margin: 2rem;
     }
-    
-    
     /* header end */
+
+    /* home page start */
+    .home-bg{
+        background-position: left;
+    }
+
+    .home-bg .home{
+        justify-content: center;
+    }
+
+    .home-bg .home .content h3{
+        font-size: 4rem;
+    }
+    /* home page end */
     
 }
 
