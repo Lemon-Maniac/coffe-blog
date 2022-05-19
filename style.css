@@ -236,3 +236,20 @@ section{
     color: black;
 }
 /* menu end */
+
+/* gallery start */
+
+.galery .box-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+}
+
+.galery .box-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* gallery end */
