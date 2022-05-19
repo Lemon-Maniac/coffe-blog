@@ -253,3 +253,27 @@ section{
 }
 
 /* gallery end */
+
+/* team start */
+.team .box-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+}
+
+.team .box-container .box{
+    text-align: center;
+}
+
+.team .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.team .box-container .box h3{
+    font-size: 2rem;
+    color: black;
+}
+/* team end */
