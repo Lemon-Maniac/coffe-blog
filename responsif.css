@@ -79,4 +79,9 @@
         font-size: 50%;
     }
 
+    /* facility start */
+    .heading h3{
+        font-size: 3rem;
+    }
+    /* facility end */
 }
